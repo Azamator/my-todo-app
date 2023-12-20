@@ -12,6 +12,7 @@ def add_todo():
 
 st.title("My Todo App, Batya")
 st.subheader("This is my todo app.")
+st.image("Amina.jpeg")
 st.write("this app is to increase your productivity.")
 
 for index, todo in enumerate(todos):
